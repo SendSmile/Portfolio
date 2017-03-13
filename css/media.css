@@ -53,6 +53,10 @@ header .banner-text h1 {
 	  
 	}
 
+	.row {
+	margin-right: -20px !important;
+	margin-left: -20px !important;}
+
 	#portfolio-wrapper img {
 		display: inline-block;
 		width: 350px;
@@ -97,9 +101,6 @@ header .social {
     font: 29px/1.1em 'opensans-bold'; 
 }
 
-header {
-	
-	height: 95vh;}
 
 	#about  {
 		
@@ -113,7 +114,7 @@ header {
 
 #portfolio-wrapper img {
 		display: inline-block;
-		width: 80%;
+		width: 85%;
 		height: 150px;
 	}
 
