@@ -42,6 +42,9 @@ header .banner {
 	height: 100%;
 
 }
+.col-md-9 {
+	padding-left: 0px !important;
+}
 
 .header .return {
 	background-color: #fff !important;
@@ -249,7 +252,7 @@ width: 80%;
 	background-image: url(../img/parallax.jpg)  ;
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
 	margin: 0;
 	text-align: center;
 
