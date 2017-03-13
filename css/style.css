@@ -1,3 +1,19 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 body {
 	background: #000;
 }
@@ -14,7 +30,6 @@ header {
 	overflow: hidden;
 	
 }
-
 
 
 header .banner {
@@ -109,6 +124,12 @@ header .scrolldown a:hover { background-color: #0F9095; color: #000; }
 	 outline: none;
 }
 
+.col-sm-12 {
+    position: relative;
+    min-height: 1px;
+     padding-left: 0px !important; 
+    padding-right: 0px !important; 
+}
 
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
@@ -230,6 +251,7 @@ width: 80%;
 	background-size: cover;
 	height: 100vh;
 	margin: 0;
+	text-align: center;
 
 
 }
@@ -244,15 +266,24 @@ width: 80%;
   
 }
 
+ #resume {
+	padding: 0 50px 0 50px;
+}
+
+#about {
+	padding: 0 50px 0 50px;
+}
 
 
 .columns img {
 	padding: 3px;
 }
+
+
  .item-wrap img {
 
 	text-align: center;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	opacity:0.8;
 	-moz-opacity:0.8;

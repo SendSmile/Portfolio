@@ -29,6 +29,7 @@ header .banner-text h1 {
 
 	.col-sm-6 {
 		text-align: center;
+		float: none !important;
 	}
 
 }
@@ -78,13 +79,13 @@ header .banner-text h1 {
 	}
 
 
-	header .social {
-		font-size: 34px;
-		margin: 234px 0px;
-	}
-
+header .social {
+    font-size: 34px;
+    margin:  95%  0!important;
+}
 	footer .social-links {
 		font-size: 25px;
+		height: 20vh;
 
 	}
 }
@@ -95,12 +96,26 @@ header .banner-text h1 {
 	header .banner-text h1 {
     font: 29px/1.1em 'opensans-bold'; 
 }
-header .social {
-    font-size: 28px;
-}
 
 	#about  {
-		padding: 10px;
+		
 		text-align: center !important;
 	}
+
+	header .social {
+    font-size: 26px;
+    margin: 27vh 0!important;
 }
+
+#portfolio-wrapper img {
+		display: inline-block;
+		width: 80%;
+		height: 150px;
+	}
+
+	footer .social-links {
+		font-size: 25px;
+		margin-bottom: 0px;
+
+	}
+	}
