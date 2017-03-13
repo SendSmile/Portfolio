@@ -20,7 +20,7 @@ body {
 
 header {
 	position: relative;
-	height: 100vh;
+	height: 90vh;
 	width: 100%;
 	background: #161415 url(../img/bg.jpg) no-repeat center ;
 	-webkit-background-size: cover !important;
