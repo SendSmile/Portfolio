@@ -99,7 +99,7 @@ header .social {
 
 header {
 	
-	height: 100vh;}
+	height: 95vh;}
 
 	#about  {
 		
@@ -120,6 +120,9 @@ header {
 	footer .social-links {
 		font-size: 25px;
 		margin-bottom: 0px;
-
+	}
+		.row {
+			margin-bottom: 0px;
+		}
 	}
 	}
