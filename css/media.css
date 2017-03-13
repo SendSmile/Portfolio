@@ -47,12 +47,14 @@ header .banner-text h1 {
 }
 	#nav-wrap {
 	  
-	    letter-spacing: 1.0px;
+	    letter-spacing: 0px;
+	    font-size: 10px;
+	  
 	}
 
 	#portfolio-wrapper img {
 		display: inline-block;
-		width: 400px;
+		width: 350px;
 		height: 200px;
 	}
 
@@ -73,6 +75,17 @@ header .banner-text h1 {
 
 	.portfolio-item {
 		margin-bottom: 20px;
+	}
+
+
+	header .social {
+		font-size: 34px;
+		margin: 234px 0px;
+	}
+
+	footer .social-links {
+		font-size: 25px;
+
 	}
 }
 
