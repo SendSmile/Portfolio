@@ -29,7 +29,7 @@ header .banner-text h1 {
 
 	.col-sm-6 {
 		text-align: center;
-		float: none !important;
+
 	}
 
 }
@@ -96,6 +96,10 @@ header .social {
 	header .banner-text h1 {
     font: 29px/1.1em 'opensans-bold'; 
 }
+
+header {
+	
+	height: 100vh;}
 
 	#about  {
 		
