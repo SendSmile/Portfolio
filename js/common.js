@@ -1,7 +1,9 @@
-$(window).scroll(function (){
-  var st = $(this).scrollTop();
 
-  $("#about").css ({
-    "transform" : "translate(0%, " + st + "%"
+
+
+$(document).ready(function() {
+
+  $(".main_mnu_button").click(function() {
+    $("#nav").slideToggle();
   })
 })

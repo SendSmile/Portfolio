@@ -1,5 +1,16 @@
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 991px) {
+
+	#nav  {
+		display: none;
+	}
+
+ul #nav li {
+   position: absolute;
+   list-style: none;
+   height: 40px;
+   display: block !important;
+}
 
 header {
 	height: 100vh;	
@@ -10,7 +21,7 @@ header .banner-text h1 {
 }
 	#about {
 		text-align: center;
-		padding: 30px;
+		padding: 10px;
 	}
 
 	.contact-details {
@@ -39,6 +50,10 @@ header .banner-text h1 {
 		width: 300px;
 		height: 200px;
 	}
+
+	.columns {
+    
+    float: none;
 }
 
 @media only screen and (max-width: 660px) {
@@ -53,9 +68,11 @@ header .banner-text h1 {
 	  
 	}
 
-	.row {
-	margin-right: -20px !important;
-	margin-left: -20px !important;}
+	
+	
+	
+
+
 
 	#portfolio-wrapper img {
 		display: inline-block;
@@ -118,12 +135,13 @@ header .social {
 		height: 150px;
 	}
 
-	footer .social-links {
-		font-size: 25px;
+	footer .social-links li {
+		font-size: 19px;
 		margin-bottom: 0px;
+	
 	}
-		.row {
-			margin-bottom: 0px;
+		footer {
+			margin-bottom: 0px !important;
 		}
-	}
+	
 	}
